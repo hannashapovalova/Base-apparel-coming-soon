@@ -17,4 +17,68 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
+ 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.text_block {
+    width: 60%;
+    background-color: white;
+    padding: 80px 480px 0 170px;
+}
+
+.logo img {
+    min-width: 200px;
+}
+
+h1 {
+    color: var(--dark-grayish-red);
+    text-transform: uppercase;
+    margin: 150px 0 20px 0;
+    font-weight: 600;
+    letter-spacing: 20px;
+    font-size: 75px;
+    line-height: 1.2;
+}
+
+h1 span {
+    color: var(--desaturated-red);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.article {
+    color: var(--desaturated-red);
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+.email_block {
+    margin-top: 50px;
+}
+
+input[type=email] {
+    width: 80%;
+}
+
+input[type=submit] {
+    width: 18%;
+}
+
+.image_block {
+    width: 35%;
+    background-color:hsl(0, 74%, 74%);
+}
+
+.image_block img {
+    min-height: 100vh;
+    min-width: 610px;
 }
