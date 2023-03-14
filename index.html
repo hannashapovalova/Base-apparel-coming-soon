@@ -29,16 +29,14 @@
         </p>
         <div class="email_block">
           <form action="">
-              <input type="email" id="email"  placeholder="Email Address" required />
-              <label for="email">
-                <img id="icon-error" src="images/icon-error.svg" alt="Icon Error" />
-              </label>
-              
+              <input type="email" id="email"  placeholder="Email Address" value="" required />
+                <img id="error_icon" src="images/icon-error.svg" alt="Icon Error" />
               <button type="submit" id="button">
                 <img src="images/icon-arrow.svg" alt="Icon Arrow" />
               </button>
-              <small class="error">Please provide a valid email</small>
           </form>
+          <p id="error_text">Please provide a valid email</p>
+          
         </div>
       </div>
       <div class="image_block">
