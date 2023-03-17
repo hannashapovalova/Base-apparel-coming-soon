@@ -104,15 +104,28 @@ input::placeholder {
     opacity: 0.5;
 }
 
+input:focus {
+    border: 2px solid var(--desaturated-red);
+    outline: none;
+}
+
 #error_icon {
-    /* display: none; */
-  
+    /* display: none;   */
+    position: absolute;
+    top: 25;
+    right: 25;
+    /* opacity: 0; */
+} 
+
+#error_icon.error {
+    opacity: 1;
 }
 
 #error_text {
     /* display: none; */
    color: var(--soft-red);
    margin: 12px 0 0 30px;
+   /* opacity: 0; */
 }
 
 .image_block {
@@ -128,6 +141,13 @@ input::placeholder {
     height: 100vh;
 }
 
+
+@media (max-width: 1600px) {
+    .text_block {
+        padding: 80px 0 0 50px;
+    }
+
+}
 
 @media (max-width: 630px) {
 
